@@ -3,7 +3,7 @@ import { slowCypressDown } from "cypress-slow-down";
 import {SignupPage} from '../pages/signupPage'
 import {CartPage} from '../pages/cartPage';
 import { PaymentPage } from '../pages/paymentPage'
-//slowCypressDown(500);
+slowCypressDown(500);
 
 const signupPage = new SignupPage();
 const cart = new CartPage();

@@ -1,6 +1,0 @@
-cy.get('[data-qa="name-on-card"]');
-cy.get('[data-qa="card-number"]');
-cy.get('[data-qa="cvc"]')
-cy.get('[data-qa="expiry-month"]')
-cy.get('[data-qa="expiry-year"]')
-cy.get('[data-qa="pay-button"]')
